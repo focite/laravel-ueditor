@@ -1,0 +1,23 @@
+{
+    "name": "jaravel/laravel-ueditor",
+    "description": "UEditor integration for Laravel.",
+    "license": "MIT",
+    "require": {
+        "php": "^8.1"
+    },
+    "autoload": {
+        "psr-4":{
+            "Jaravel\\UEditor\\":"src/"
+        }
+    },
+    "suggest": {
+        "overtrue/laravel-filesystem-qiniu": "如果你想要使用七牛云存储，也许你需要安装它哦~"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jaravel\\UEditor\\UEditorServiceProvider"
+            ]
+        }
+    }
+}
