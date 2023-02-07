@@ -5,7 +5,7 @@ UEditor integration for Laravel 5.
 ## 安装
 
 ```shell
-$ composer require "jaravel/laravel-ueditor:~1.0"
+$ composer require "focite/laravel-ueditor:~1.0"
 ```
 
 ## 配置

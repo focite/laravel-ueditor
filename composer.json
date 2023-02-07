@@ -1,5 +1,5 @@
 {
-    "name": "jaravel/laravel-ueditor",
+    "name": "focite/laravel-ueditor",
     "description": "UEditor integration for Laravel.",
     "license": "MIT",
     "require": {
@@ -7,7 +7,7 @@
     },
     "autoload": {
         "psr-4":{
-            "Jaravel\\UEditor\\":"src/"
+            "Focite\\UEditor\\":"src/"
         }
     },
     "suggest": {
@@ -16,7 +16,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Jaravel\\UEditor\\UEditorServiceProvider"
+                "Focite\\UEditor\\UEditorServiceProvider"
             ]
         }
     }
